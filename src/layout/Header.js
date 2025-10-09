@@ -141,7 +141,7 @@ const MenuWithOutBlog = ({ handleClose }) => {
         </a>
       </li>
 
-      <li data-menuanchor="contactus">
+      <li data-menuanchor="contactme">
         <a className="nav-link" href="#contactme" onClick={handleClose}>
           <i className="ti-map-alt" />
           <span>Contact</span>
@@ -186,7 +186,7 @@ const MenuWithBlog = ({ handleClose }) => {
           </Link>
         </li>
 
-        <li data-menuanchor="contactus">
+        <li data-menuanchor="contactme">
           <Link href="/#contactme" className="nav-link" onClick={handleClose}>
             <i className="ti-map-alt" />
             <span>Contact</span>

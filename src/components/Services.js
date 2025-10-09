@@ -16,8 +16,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Frontend Development</h5>
                 <p>
-                  I create modern, responsive, and interactive user interfaces using React, TypeScript, 
-                  Material UI, and modern CSS frameworks. I focus on delivering exceptional user experiences 
+                  I create modern, responsive, and interactive user interfaces
+                  using React, TypeScript, Material UI, and modern CSS
+                  frameworks. I focus on delivering exceptional user experiences
                   with clean, maintainable code and pixel-perfect designs.
                 </p>
               </div>
@@ -29,9 +30,10 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Backend Development</h5>
                 <p>
-                  I build robust server-side applications using Java, Spring Boot, and RESTful API architecture. 
-                  I design scalable APIs, integrate third-party services, and ensure efficient data management 
-                  with SQL databases.
+                  I build robust server-side applications using Java, Spring
+                  Boot, and RESTful API architecture. I design scalable APIs,
+                  integrate third-party services, and ensure efficient data
+                  management with SQL databases.
                 </p>
               </div>
             </div>
@@ -42,9 +44,10 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Full-Stack Solutions</h5>
                 <p>
-                  I provide end-to-end development services, from concept to deployment. I handle both 
-                  frontend and backend development with Java/Spring Boot and React, ensuring seamless 
-                  integration and optimal performance across the entire application.
+                  I provide end-to-end development services, from concept to
+                  deployment. I handle both frontend and backend development
+                  with Java/Spring Boot and React, ensuring seamless integration
+                  and optimal performance across the entire application.
                 </p>
               </div>
             </div>
@@ -55,8 +58,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Database Design</h5>
                 <p>
-                  I design and optimize databases using SQL (PostgreSQL, MySQL) and MongoDB. I ensure data 
-                  integrity, implement efficient queries and stored procedures, and create scalable database 
+                  I design and optimize databases using SQL (PostgreSQL, MySQL)
+                  and MongoDB. I ensure data integrity, implement efficient
+                  queries and stored procedures, and create scalable database
                   architectures for enterprise applications.
                 </p>
               </div>
@@ -68,8 +72,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>API Development</h5>
                 <p>
-                  I specialize in designing and building RESTful APIs with Spring Boot. I implement secure 
-                  authentication, handle complex data flows, integrate third-party services, and ensure APIs 
+                  I specialize in designing and building RESTful APIs with
+                  Spring Boot. I implement secure authentication, handle complex
+                  data flows, integrate third-party services, and ensure APIs
                   are scalable, well-documented, and maintainable.
                 </p>
               </div>
@@ -81,9 +86,10 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>AI Development & Integration</h5>
                 <p>
-                  I design, build, and integrate AI-powered solutions to enhance applications and user experiences. 
-                  From training custom models to implementing intelligent automation, I use modern AI tools and APIs 
-                  to create smarter, more adaptive systems.
+                  I design, build, and integrate AI-powered solutions to enhance
+                  applications and user experiences. From training custom models
+                  to implementing intelligent automation, I use modern AI tools
+                  and APIs to create smarter, more adaptive systems.
                 </p>
               </div>
             </div>

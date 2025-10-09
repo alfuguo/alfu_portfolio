@@ -50,8 +50,8 @@ const About = () => {
           <h3>Education &amp; Skills</h3>
         </div>
         <div className="row">
-          <div className="col-lg-4 m-15px-tb">
-            <ul className="aducation-box">
+          <div className="col-lg-4 m-15px-tb" style={{ display: "flex", alignItems: "flex-end" }}>
+            <ul className="aducation-box" style={{ width: "100%" }}>
               <li>
                 <span>2023-2024</span>
                 <h6>Java Full Stack Development</h6>
