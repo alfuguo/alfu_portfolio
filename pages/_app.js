@@ -7,7 +7,21 @@ import "../public/static/css/style.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    // Add any global scripts here if needed
+    // Add global font styles
+    const style = document.createElement('style');
+    style.textContent = `
+      body, p, span, div, li, td, th, input, textarea, select, button {
+        font-family: 'Roboto', sans-serif !important;
+      }
+      h1, h2, h3, h4, h5, h6, .font-alt {
+        font-family: 'Space Grotesk', sans-serif !important;
+      }
+    `;
+    document.head.appendChild(style);
+    
+    return () => {
+      document.head.removeChild(style);
+    };
   }, []);
 
   return (
@@ -21,6 +35,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
