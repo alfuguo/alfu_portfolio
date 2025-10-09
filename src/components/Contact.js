@@ -22,32 +22,32 @@ const Contact = () => {
     try {
       // Send notification email to you (al.fuguo@gmail.com)
       const notificationResult = await emailjs.send(
-        'service_k4yte2m', // Your EmailJS service ID
-        'template_xasp5c8', // Your notification template ID
+        "service_k4yte2m", // Your EmailJS service ID
+        "template_xasp5c8", // Your notification template ID
         {
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
           message: formData.message
         },
-        'jqWuV_uALMd5ibUvq' // Your EmailJS public key
+        "jqWuV_uALMd5ibUvq" // Your EmailJS public key
       );
 
       // Send auto-reply to the person who contacted you
       const autoReplyResult = await emailjs.send(
-        'service_k4yte2m', // Your EmailJS service ID
-        'template_nv9fro4', // Your auto-reply template ID
+        "service_k4yte2m", // Your EmailJS service ID
+        "template_nv9fro4", // Your auto-reply template ID
         {
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
           message: formData.message
         },
-        'jqWuV_uALMd5ibUvq' // Your EmailJS public key
+        "jqWuV_uALMd5ibUvq" // Your EmailJS public key
       );
       
-      console.log('Notification email sent:', notificationResult);
-      console.log('Auto-reply sent:', autoReplyResult);
+      console.log("Notification email sent:", notificationResult);
+      console.log("Auto-reply sent:", autoReplyResult);
       alert('Message sent successfully!');
       
       // Reset form

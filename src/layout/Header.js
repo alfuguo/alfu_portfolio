@@ -19,33 +19,33 @@ const Header = ({ blog }) => {
   return (
     <Fragment>
       <div className="mob-header" style={{ 
-        padding: '10px 15px !important', 
-        minHeight: '50px !important', 
-        height: '50px !important',
-        maxHeight: '50px !important',
-        overflow: 'hidden'
+        padding: "10px 15px !important", 
+        minHeight: "50px !important", 
+        height: "50px !important",
+        maxHeight: "50px !important",
+        overflow: "hidden"
       }}>
         <div className="d-flex" style={{ 
-          alignItems: 'center', 
-          height: '100%',
-          justifyContent: 'space-between'
+          alignItems: "center", 
+          height: "100%",
+          justifyContent: "space-between"
         }}>
           <div className="navbar-brand">
             <Link href="/" className="logo-text" style={{ 
-              lineHeight: '1', 
-              display: 'flex', 
-              alignItems: 'center',
-              height: '24px'
+              lineHeight: "1", 
+              display: "flex", 
+              alignItems: "center",
+              height: "24px"
             }}>
               <img 
                 src="static/img/favicon.svg" 
                 alt="Al Fu Logo" 
                 style={{ 
-                  height: '24px !important', 
-                  width: '24px !important',
-                  filter: 'invert(1)', // Makes dark logo white for dark background
-                  margin: '0',
-                  objectFit: 'contain'
+                  height: "24px !important", 
+                  width: "24px !important",
+                  filter: "invert(1)", // Makes dark logo white for dark background
+                  margin: "0",
+                  objectFit: "contain"
                 }}
               />
             </Link>
@@ -74,18 +74,18 @@ const Header = ({ blog }) => {
                   src="static/img/Al headshot.jpg" 
                   title="" 
                   alt="Al Fu - Fullstack Developer"
-                  style={{ width: '120%', height: 'auto' }}
+                  style={{ width: "120%", height: "auto" }}
                 />
               </div>
-              <div style={{ marginTop: '10px' }}>
+              <div style={{ marginTop: "10px" }}>
                 <img 
                   src="static/img/logo.svg" 
                   alt="Al Fu Logo" 
                   style={{ 
-                    height: '135px', 
-                    width: 'auto',
-                    filter: 'invert(1)', // Makes dark logo white for dark background
-                    maxWidth: '420px'
+                    height: "135px", 
+                    width: "auto",
+                    filter: "invert(1)", // Makes dark logo white for dark background
+                    maxWidth: "420px"
                   }}
                 />
               </div>
