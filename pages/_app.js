@@ -19,6 +19,8 @@ function MyApp({ Component, pageProps }) {
           content="Al Fu - Passionate Fullstack Software Developer specializing in modern web applications"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
