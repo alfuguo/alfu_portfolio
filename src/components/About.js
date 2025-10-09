@@ -55,7 +55,7 @@ const About = () => {
               <li>
                 <span>2023-2024</span>
                 <h6>Java Full Stack Development</h6>
-                <p>Coder's Campus</p>
+                <p>Coder&apos;s Campus</p>
               </li>
               <li>
                 <span>2022</span>

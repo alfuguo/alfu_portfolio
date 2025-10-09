@@ -6,19 +6,19 @@ const Contact = () => {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     try {
       // Send notification email to you (al.fuguo@gmail.com)
       const notificationResult = await emailjs.send(
@@ -28,7 +28,7 @@ const Contact = () => {
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
-          message: formData.message
+          message: formData.message,
         },
         "jqWuV_uALMd5ibUvq" // Your EmailJS public key
       );
@@ -41,26 +41,26 @@ const Contact = () => {
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
-          message: formData.message
+          message: formData.message,
         },
         "jqWuV_uALMd5ibUvq" // Your EmailJS public key
       );
-      
+
       console.log("Notification email sent:", notificationResult);
       console.log("Auto-reply sent:", autoReplyResult);
-      alert('Message sent successfully!');
-      
+      alert("Message sent successfully!");
+
       // Reset form
       setFormData({
         name: "",
         email: "",
         subject: "",
-        message: ""
+        message: "",
       });
     } catch (error) {
-      console.error('Error sending email:', error);
-      console.error('Error details:', error.text || error.message);
-      alert('Failed to send message. Please check the console for details.');
+      console.error("Error sending email:", error);
+      console.error("Error details:", error.text || error.message);
+      alert("Failed to send message. Please check the console for details.");
     }
   };
 
@@ -79,9 +79,9 @@ const Contact = () => {
             <div className="contact-info">
               <h4>Let&apos;s work together!</h4>
               <p>
-                I&apos;m always interested in new opportunities and exciting projects. 
-                Whether you have a project in mind or just want to chat about technology, 
-                feel free to reach out!
+                I&apos;m always interested in new opportunities and exciting
+                projects. Whether you have a project in mind or just want to
+                chat about technology, feel free to reach out!
               </p>
               <div className="contact-item">
                 <div className="contact-icon">
@@ -171,10 +171,7 @@ const Contact = () => {
                   </div>
                   <div className="col-md-12">
                     <div className="send">
-                      <button
-                        className="px-btn px-btn-theme"
-                        type="submit"
-                      >
+                      <button className="px-btn px-btn-theme" type="submit">
                         Send Message
                       </button>
                     </div>
