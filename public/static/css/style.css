@@ -1498,6 +1498,8 @@ mark {
   border-radius: 8px;
   border: 2px solid rgba(47, 191, 113, 0.2);
   transition: all 0.3s ease;
+  min-height: 60px;
+  height: 60px;
 }
 .theme-light .skill-item {
   background: #f7f7ff;

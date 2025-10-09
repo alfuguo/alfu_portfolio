@@ -113,6 +113,18 @@ const About = () => {
                   <i className="fas fa-exchange-alt"></i>
                   <span>RESTful APIs</span>
                 </div>
+                <div className="skill-item">
+                  <i className="fab fa-figma"></i>
+                  <span>Figma</span>
+                </div>
+                <div className="skill-item">
+                  <i className="fas fa-video"></i>
+                  <span>Premiere Pro</span>
+                </div>
+                <div className="skill-item">
+                  <i className="fas fa-palette"></i>
+                  <span>Illustrator</span>
+                </div>
               </div>
             </div>
           </div>

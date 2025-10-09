@@ -79,11 +79,11 @@ const Services = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-target" />
               <div className="feature-content media-body">
-                <h5>Performance Optimization</h5>
+                <h5>AI Development & Integration</h5>
                 <p>
-                  I analyze and optimize application performance across the stack. I implement caching strategies, 
-                  optimize database queries, reduce render times, and ensure applications handle high traffic 
-                  loads efficiently.
+                  I design, build, and integrate AI-powered solutions to enhance applications and user experiences. 
+                  From training custom models to implementing intelligent automation, I use modern AI tools and APIs 
+                  to create smarter, more adaptive systems.
                 </p>
               </div>
             </div>
