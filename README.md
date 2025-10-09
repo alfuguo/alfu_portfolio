@@ -1,6 +1,7 @@
-# Alfu - Fullstack Developer Portfolio
+# Alfu - Full-stack Developer Portfolio
 
-A modern, responsive portfolio website built with Next.js, showcasing my skills and projects as a fullstack developer.
+A modern, responsive portfolio website built with Next.js, showcasing my skills and projects as a full-stack developer. 
+Live on https://www.alfu.dev
 
 ## Features
 
@@ -24,8 +25,7 @@ A modern, responsive portfolio website built with Next.js, showcasing my skills 
 2. **About**: Personal information, skills, education, and experience
 3. **Services**: What I offer as a developer
 4. **Portfolio**: Showcase of projects and work
-5. **Blog**: Latest articles and thoughts
-6. **Contact**: Get in touch form and contact information
+5. **Contact**: Get in touch form and contact information
 
 ## Getting Started
 
@@ -141,9 +141,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Email**: al.fuguo@gmail.com
+- **LinkedIn**: [Al's LinkedIn Profile](https://www.linkedin.com/in/alfuguo/)
+- **GitHub**: [Al's GitHub Profile](https://github.com/alfuguo)
 
 ---
 
