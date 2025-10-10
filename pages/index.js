@@ -89,31 +89,32 @@ const Index = () => {
                     Al Fu
                   </h1>
                   
-                  <p 
-                    className="lead"
+                  <div 
+                    className="typing-container"
                     style={{
                       animation: isLoaded ? "slideInLeft 0.8s ease-out 0.6s both" : "none",
                       fontSize: "1.4rem",
-                      minHeight: "2rem",
                       fontFamily: "'Space Grotesk', sans-serif"
                     }}
                   >
-                    I am a Passionate{" "}
-                    <span style={{ 
-                      color: "#2fbf71",
-                      fontWeight: "600"
-                    }}>
-                      {typedText}
-                      <span 
-                        style={{ 
-                          opacity: Math.sin(Date.now() / 500) > 0 ? 1 : 0,
-                          transition: "opacity 0.1s"
-                        }}
-                      >
-                        |
+                    <p className="lead" style={{ margin: 0, width: "100%" }}>
+                      I am a Passionate{" "}
+                      <span style={{ 
+                        color: "#2fbf71",
+                        fontWeight: "600"
+                      }}>
+                        {typedText}
+                        <span 
+                          style={{ 
+                            opacity: Math.sin(Date.now() / 500) > 0 ? 1 : 0,
+                            transition: "opacity 0.1s"
+                          }}
+                        >
+                          |
+                        </span>
                       </span>
-                    </span>
-                  </p>
+                    </p>
+                  </div>
                   
                   <p 
                     className="desc"
@@ -248,6 +249,51 @@ const Index = () => {
             animation: 
               ballPulse 8s ease-in-out infinite,
               greenGlow 6s ease-in-out infinite;
+          }
+
+          /* Responsive typing container to prevent layout jumping */
+          .typing-container {
+            min-height: 2rem;
+            display: block;
+            width: 100%;
+          }
+
+          .typing-container .lead {
+            line-height: 1.5;
+            margin: 0;
+          }
+
+          /* Mobile responsive adjustments */
+          @media (max-width: 768px) {
+            .typing-container {
+              min-height: 3.4rem; /* Reduced space for 2 lines on mobile */
+            }
+            
+            .typing-container .lead {
+              font-size: 1.2rem !important;
+              line-height: 1.4;
+            }
+          }
+
+          @media (max-width: 480px) {
+            .typing-container {
+              min-height: 3.6rem; /* Tighter spacing for smaller screens */
+            }
+            
+            .typing-container .lead {
+              font-size: 1.1rem !important;
+              line-height: 1.3;
+            }
+          }
+
+          @media (max-width: 360px) {
+            .typing-container {
+              min-height: 3.8rem; /* Minimal space for very small screens */
+            }
+            
+            .typing-container .lead {
+              font-size: 1rem !important;
+            }
           }
         `}</style>
       </section>

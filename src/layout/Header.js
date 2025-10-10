@@ -81,13 +81,39 @@ const Header = ({ blog }) => {
                 <img 
                   src="static/img/logo.svg" 
                   alt="Al Fu Logo" 
+                  className="animated-logo"
                   style={{ 
-                    height: "135px", 
+                    height: "80px", 
                     width: "auto",
-                    filter: "invert(1)", // Makes dark logo white for dark background
                     maxWidth: "420px"
                   }}
                 />
+                <style jsx>{`
+                  .animated-logo {
+                    animation: elegantGlow 10s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+                    transition: all 0.3s ease;
+                  }
+                  
+                  .animated-logo:hover {
+                    animation-duration: 3s;
+                    transform: scale(1.02);
+                  }
+                  
+                  @keyframes elegantGlow {
+                    0%, 100% { 
+                      filter: invert(1) sepia(0) saturate(1) hue-rotate(0deg) brightness(1) drop-shadow(0 0 5px rgba(255,255,255,0.3));
+                    }
+                    25% { 
+                      filter: invert(1) sepia(0.8) saturate(3) hue-rotate(120deg) brightness(1.1) drop-shadow(0 0 15px rgba(47,191,113,0.4));
+                    }
+                    50% { 
+                      filter: invert(1) sepia(0.6) saturate(2.5) hue-rotate(200deg) brightness(1.05) drop-shadow(0 0 12px rgba(100,149,237,0.3));
+                    }
+                    75% { 
+                      filter: invert(1) sepia(0.7) saturate(2.8) hue-rotate(280deg) brightness(1.08) drop-shadow(0 0 10px rgba(186,85,211,0.35));
+                    }
+                  }
+                `}</style>
               </div>
             </div>
           </div>

@@ -46,8 +46,7 @@ const Contact = () => {
         "jqWuV_uALMd5ibUvq" // Your EmailJS public key
       );
 
-      console.log("Notification email sent:", notificationResult);
-      console.log("Auto-reply sent:", autoReplyResult);
+      // Email sent successfully
       alert("Message sent successfully!");
 
       // Reset form
