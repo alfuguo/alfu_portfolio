@@ -561,7 +561,6 @@ const Index = () => {
             margin: 0;
           }
 
-          /* Mobile responsive adjustments */
           @media (max-width: 768px) {
             .home-banner .container {
               padding-left: 20px !important;
@@ -569,48 +568,11 @@ const Index = () => {
               max-width: 100% !important;
             }
 
-            .home-banner .row {
-              margin-left: 0 !important;
-              margin-right: 0 !important;
-            }
-
-            .home-banner .col-lg-6 {
-              padding-left: 0 !important;
-              padding-right: 0 !important;
-            }
-
-            .type-box {
-              padding-left: 0 !important;
-              padding-right: 0 !important;
-              margin-left: 0 !important;
-              margin-right: 0 !important;
-            }
-
-            /* Fix homepage image overflow */
             .profile-image {
               width: 400px !important;
               height: 400px !important;
               max-width: 90vw !important;
               max-height: 90vw !important;
-            }
-
-            .hb-img {
-              padding: 0 !important;
-              margin: 0 !important;
-            }
-
-            .typing-container {
-              min-height: 3.4rem; /* Reduced space for 2 lines on mobile */
-            }
-            
-            .typing-container .lead {
-              font-size: 1.2rem !important;
-              line-height: 1.4;
-            }
-
-            .tech-stack-section div {
-              justify-content: center !important;
-              gap: 0.8rem !important;
             }
 
             .tech-pill {
@@ -622,20 +584,6 @@ const Index = () => {
           }
 
           @media (max-width: 480px) {
-            .typing-container {
-              min-height: 3.6rem; /* Tighter spacing for smaller screens */
-            }
-            
-            .typing-container .lead {
-              font-size: 1.1rem !important;
-              line-height: 1.3;
-            }
-
-            .tech-stack-section div {
-              justify-content: center !important;
-              gap: 0.6rem !important;
-            }
-
             .tech-pill {
               flex: 0 0 48% !important;
               min-width: 48% !important;
@@ -649,23 +597,10 @@ const Index = () => {
           }
 
           @media (max-width: 360px) {
-            .typing-container {
-              min-height: 3.8rem; /* Minimal space for very small screens */
-            }
-            
-            .typing-container .lead {
-              font-size: 1rem !important;
-            }
-
             .tech-pill {
               flex: 1 1 100% !important;
               min-width: 100% !important;
               margin-bottom: 0.5rem !important;
-            }
-
-            .tech-stack-section div {
-              flex-direction: column !important;
-              gap: 0.5rem !important;
             }
           }
         `}</style>
