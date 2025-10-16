@@ -236,7 +236,7 @@ const About = () => {
                     Fairmont Gold Supervisor / Sales Administrative Assistant /
                     IT Support
                   </h6>
-                  <label>Fairmont Hotels | Washington D.C. | 2013 - 2021</label>
+                  <label>Fairmont Hotels | Washington D.C. | 2013 - 2017</label>
                   <div className="rb-time">Full Time</div>
                   <div>
                     <ul>
@@ -245,7 +245,7 @@ const About = () => {
                         for VIP guests suites
                       </li>
                       <li>
-                        Increased floor revenue from $273 to $315 ADR through
+                        Increased floor revenue from $273 to $315 through
                         strategic data analysis
                       </li>
                       <li>
