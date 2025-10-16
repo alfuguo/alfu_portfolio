@@ -608,14 +608,14 @@ const Index = () => {
               line-height: 1.4;
             }
 
-            .tech-stack-section > div {
+            .tech-stack-section div {
               justify-content: center !important;
               gap: 0.8rem !important;
             }
 
             .tech-pill {
-              flex: 0 0 calc(50% - 0.4rem) !important;
-              min-width: calc(50% - 0.4rem) !important;
+              flex: 0 0 48% !important;
+              min-width: 48% !important;
               padding: 0.6rem 0.8rem !important;
               font-size: 0.8rem !important;
             }
@@ -631,14 +631,14 @@ const Index = () => {
               line-height: 1.3;
             }
 
-            .tech-stack-section > div {
+            .tech-stack-section div {
               justify-content: center !important;
               gap: 0.6rem !important;
             }
 
             .tech-pill {
-              flex: 0 0 calc(50% - 0.3rem) !important;
-              min-width: calc(50% - 0.3rem) !important;
+              flex: 0 0 48% !important;
+              min-width: 48% !important;
               padding: 0.5rem 0.6rem !important;
               font-size: 0.75rem !important;
             }
@@ -663,7 +663,7 @@ const Index = () => {
               margin-bottom: 0.5rem !important;
             }
 
-            .tech-stack-section > div {
+            .tech-stack-section div {
               flex-direction: column !important;
               gap: 0.5rem !important;
             }
