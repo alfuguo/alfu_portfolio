@@ -589,7 +589,7 @@ const Index = () => {
               line-height: 1.4;
             }
 
-            .tech-stack-section div {
+            .tech-stack-section > div {
               justify-content: center !important;
               gap: 0.8rem !important;
             }
@@ -612,7 +612,7 @@ const Index = () => {
               line-height: 1.3;
             }
 
-            .tech-stack-section div {
+            .tech-stack-section > div {
               justify-content: center !important;
               gap: 0.6rem !important;
             }
@@ -636,7 +636,7 @@ const Index = () => {
               margin-bottom: 0.5rem !important;
             }
 
-            .tech-stack-section div {
+            .tech-stack-section > div {
               flex-direction: column !important;
               gap: 0.5rem !important;
             }
