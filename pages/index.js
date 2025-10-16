@@ -561,6 +561,7 @@ const Index = () => {
             margin: 0;
           }
 
+          /* Mobile responsive adjustments */
           @media (max-width: 768px) {
             .home-banner .container {
               padding-left: 20px !important;
@@ -568,6 +569,24 @@ const Index = () => {
               max-width: 100% !important;
             }
 
+            .home-banner .row {
+              margin-left: 0 !important;
+              margin-right: 0 !important;
+            }
+
+            .home-banner .col-lg-6 {
+              padding-left: 0 !important;
+              padding-right: 0 !important;
+            }
+
+            .type-box {
+              padding-left: 0 !important;
+              padding-right: 0 !important;
+              margin-left: 0 !important;
+              margin-right: 0 !important;
+            }
+
+            /* Fix homepage image overflow */
             .profile-image {
               width: 400px !important;
               height: 400px !important;
@@ -630,6 +649,14 @@ const Index = () => {
           }
 
           @media (max-width: 360px) {
+            .typing-container {
+              min-height: 3.8rem; /* Minimal space for very small screens */
+            }
+            
+            .typing-container .lead {
+              font-size: 1rem !important;
+            }
+
             .tech-pill {
               flex: 1 1 100% !important;
               min-width: 100% !important;
